@@ -1,0 +1,227 @@
+@charset "UTF-8";
+h1 {
+  font-family: "Crimson Text", serif;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+#presentation, #festival, #film, #actualite {
+  padding: 100px 50px;
+}
+
+#presentation h1, #festival h1 {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.title {
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.film-image {
+  width: auto;
+  max-height: 500px;
+}
+
+.right-arrow {
+  font-size: 30px;
+}
+
+.right-arrow-film {
+  color: #F4A261;
+}
+
+.right-arrow-contact {
+  color: #ffffff;
+}
+
+.btn-reservation {
+  background-color: #F4A261;
+  color: #264653;
+}
+
+.showtime {
+  font-size: 25px;
+  color: #2A9D8F;
+}
+
+/* Cards for films, actualités */
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.card {
+  border: none;
+  background-color: #264653;
+}
+
+.card-title {
+  font-size: 25px;
+  color: #2A9D8F;
+}
+
+.card-text {
+  color: #ffffff;
+}
+
+.blog-title {
+  color: #E76F51;
+}
+
+/* Links */
+.link {
+  text-decoration: none;
+}
+
+.link-blog {
+  color: #E76F51;
+}
+
+.link-blog:hover {
+  color: #264653;
+}
+
+.link-reserve {
+  padding-top: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* Nav */
+.navbar {
+  background-color: #2A9D8F;
+}
+.navbar .nav-item {
+  margin-left: 50px;
+}
+.navbar .nav-link {
+  color: #ffffff !important;
+  font-size: 25px;
+}
+.navbar .nav-link:hover {
+  color: #F4A261 !important;
+}
+.navbar .active {
+  color: #264653 !important;
+}
+
+/* Index page - Section presentation */
+#presentation img {
+  width: auto;
+  height: 150px;
+}
+#presentation p {
+  font-size: 24px;
+  color: #264653;
+}
+#presentation .name {
+  color: #2A9D8F;
+}
+#presentation .date {
+  color: #E76F51;
+}
+
+/* Index page - Section festival */
+#festival {
+  background-color: #E76F51;
+}
+#festival p {
+  color: #ffffff;
+}
+#festival p a {
+  color: #000000;
+}
+#festival p a:hover {
+  color: #E9C46A;
+}
+#festival #down-arrow {
+  height: 100px;
+  width: auto;
+}
+
+/* Index page - Section film */
+#film {
+  background-color: #264653;
+}
+#film h1 {
+  color: #ffffff;
+  font-size: 50px;
+}
+#film div {
+  margin-top: 50px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+}
+#film div .date {
+  font-size: 50px;
+  background-color: #E9C46A;
+  border-radius: 1em;
+}
+#film div .film-details a {
+  color: #ffffff;
+}
+#film div .film-details a:hover {
+  color: #2A9D8F;
+}
+#film #film-button a {
+  color: #E9C46A;
+}
+#film #film-button a:hover {
+  color: #2A9D8F;
+}
+
+/* Index page - Section actualite */
+#actualite {
+  background-color: #E9C46A;
+}
+#actualite h1 {
+  font-size: 80px;
+}
+#actualite h1, #actualite h3 {
+  color: #264653;
+}
+#actualite div {
+  padding: 50px;
+}
+#actualite div a {
+  color: #2A9D8F;
+}
+#actualite div a:hover {
+  color: #ffffff;
+}
+
+/* Index page - Section contact */
+#contact {
+  background-color: #2A9D8F;
+}
+#contact .reservation {
+  padding: 100px;
+}
+#contact a {
+  color: #ffffff;
+}
+#contact a:hover {
+  color: #E9C46A;
+}
+
+/* Footer */
+.footer {
+  margin-top: 100px;
+  width: 200px;
+}
+.footer a {
+  color: #264653;
+}
+.footer a:hover {
+  color: #E76F51;
+}
+
+/*# sourceMappingURL=styles.css.map */

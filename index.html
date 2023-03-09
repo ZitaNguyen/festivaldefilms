@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1, width=device-width">
+
+		<!-- Bootstrap CSS only -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+		<!-- Bootstrap icons -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+		<!-- Personal CSS -->
+		<link rel="stylesheet" href="styles/styles.css">
+
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Lato&display=swap" rel="stylesheet">
+
+		<title>Les Films de Plein Air</title>
+	</head>
+
+	<body>
+		<!-- Body content -->
+		<div class="container-fluid">
+			<!-- General Presentation -->
+			<div class="row" id="presentation">
+				<div class="d-flex justify-content-around">
+					<img src="images/logo.png" alt="" class="d-none d-lg-block">
+					<div class="text-center">
+						<h1 class="title name">Films de plein air</h1>
+						<h1 class="date">5/8 - 8/8</h1>
+					</div>
+				</div>
+				<div style="height: 200px;"></div>
+				<div class="text-center pb-5">
+					<p>Venez voir votre films préférés au</p>
+					<p>parc Monceau - Paris</p>
+					<p>à 18 heures à minuit</p>
+				</div>
+			</div>
+			<!-- Le festival -->
+			<div class="row" id="festival">
+				<div class="d-flex justify-content-around">
+					<div class="d-none d-lg-block" style="width: 700px;">
+						<img src="images/popcorn.png" alt="">
+						<img src="images/ticket.png" alt="">
+					</div>
+					<div class="text-center" style="width: 900px;">
+						<h1 class="title">Le festival</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lacinia mauris sit amet velit elementum fermentum.
+							Quisque lacinia orci non mattis laoreet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non justo eu sem malesuada elementum.
+							Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur non volutpat felis, non elementum elit.
+							Nunc efficitur blandit finibus. Curabitur interdum pellentesque justo ut tempor. Sed sed egestas dolor, tempus tempor nisl.
+							Vivamus posuere, ante suscipit vulputate hendrerit, enim est volutpat mauris, quis maximus sapien massa id nunc. Nam quis diam ut odio posuere volutpat.
+							<a href="festival.html" class="link">Lire la suite <i class="bi bi-arrow-right"></i></a>
+						</p>
+						<div style="height: 150px;"></div>
+						<img src="images/down-arrow.png" alt="" id="down-arrow">
+					</div>
+				</div>
+			</div>
+			<!-- Les films -->
+			<div class="row" id="film">
+				<h1 class="text-center">Quels sont des films vous attendez?</h1>
+				<div class="row row-cols-lg-4 row-cols-md-2 row-cols-1">
+					<div class="col">
+						<p class="date">5/8</p>
+						<p class="film-details"><a href="film1.html" class="link">18:00 - 20:00 Film ABC</a></p>
+						<p class="film-details"><a href="film1.html" class="link">20:00 - 22:00 Film ABC</a></p>
+						<p class="film-details"><a href="film1.html" class="link">22:00 - 00:00 Film ABC</a></p>
+					</div>
+					<div class="col">
+						<p class="date">6/8</p>
+						<p class="film-details"><a href="film1.html" class="link">18:00 - 20:00 Film ABC</a></p>
+						<p class="film-details"><a href="film1.html" class="link">20:00 - 22:00 Film ABC</a></p>
+						<p class="film-details"><a href="film1.html" class="link">22:00 - 00:00 Film ABC</a></p>
+					</div>
+					<div class="col">
+						<p class="date">7/8</p>
+						<p class="film-details"><a href="film1.html" class="link">18:00 - 20:00 Film ABC</a></p>
+						<p class="film-details"><a href="film1.html" class="link">20:00 - 22:00 Film ABC</a></p>
+						<p class="film-details"><a href="film1.html" class="link">22:00 - 00:00 Film ABC</a></p>
+					</div>
+					<div class="col">
+						<p class="date">8/8</p>
+						<p class="film-details"><a href="film1.html" class="link">18:00 - 20:00 Film ABC</a></p>
+						<p class="film-details"><a href="film1.html" class="link">20:00 - 22:00 Film ABC</a></p>
+						<p class="film-details"><a href="film1.html" class="link">22:00 - 00:00 Film ABC</a></p>
+					</div>
+				</div>
+				<div id="film-button">
+					<a href="reservation.html" class="link link-reserve">Réserver votre place <i class="bi bi-arrow-right right-arrow right-arrow-film"></i></a>
+				</div>
+			</div>
+			<!-- Actualités -->
+			<div class="row" id="actualite">
+				<h1 class="text-center">Quoi de neuf?</h1>
+				<div class="row row-cols-lg-3 row-cols-1">
+					<div class="col">
+						<h3 class="text-center">Lorem ipsum</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquam odio id purus varius luctus.
+							Suspendisse condimentum felis sed varius ullamcorper. In at nisl pretium, faucibus arcu at, tempor nisl.
+							Nam et justo nunc. <a href="actualite1.html" class="link">Lire la suite <i class="bi bi-arrow-right"></i></a></p>
+					</div>
+					<div class="col">
+						<h3 class="text-center">Lorem ipsum</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquam odio id purus varius luctus.
+							Suspendisse condimentum felis sed varius ullamcorper. In at nisl pretium, faucibus arcu at, tempor nisl.
+							Nam et justo nunc. <a href="actualite1.html" class="link">Lire la suite <i class="bi bi-arrow-right"></i></a></p>
+					</div>
+					<div class="col">
+						<h3 class="text-center">Lorem ipsum</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquam odio id purus varius luctus.
+							Suspendisse condimentum felis sed varius ullamcorper. In at nisl pretium, faucibus arcu at, tempor nisl.
+							Nam et justo nunc. <a href="actualite1.html" class="link">Lire la suite <i class="bi bi-arrow-right"></i></a></p>
+					</div>
+				</div>
+			</div>
+			<!-- Contact -->
+			<div class="row" id="contact">
+				<div class="d-flex justify-content-between">
+					<div class="mx-auto my-5 text-center">
+						<a href="reservation.html" role="button" class="btn btn-dark reservation link link-reserve">Réserver votre place <i class="bi bi-arrow-right right-arrow right-arrow-contact"></i></a>
+
+						<img src="images/fleur.png" alt="" class="mx-auto d-block my-5" style="width: auto; height: 80px;">
+
+						<h3 class="my-5">Des questions?</h3>
+						<p>contact@filmsdepleinair.org</p>
+						<p>01 23 45 67 89</p>
+						<div class="d-flex justify-content-center">
+							<a href="https://www.youtube.com" target="_blank" class="link px-2"><i class="bi bi-youtube"></i></a>
+							<a href="https://www.facebook.com" target="_blank" class="link px-2"><i class="bi bi-facebook"></i></a>
+							<a href="https://www.instagram.com" target="_blank" class="link px-2"><i class="bi bi-instagram"></i></a>
+							<a href="https://www.twitter.com" target="_blank" class="link px-2"><i class="bi bi-twitter"></i></a>
+						</div>
+					</div>
+					<div class="d-none d-lg-block" style="width: 380px;">
+						<img src="images/square.png" alt="">
+						<img src="images/sunset.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
